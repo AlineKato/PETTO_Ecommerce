@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MySql.data" Version="8.0.30" />
+    <PackageReference Include="MySqlConnector" Version="2.1.13" />
+    <PackageReference Include="NHibernate" Version="5.3.13" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Petto.aplicacao\Petto.aplicacao.csproj" />
+    <ProjectReference Include="..\Petto.DataTransfer\Petto.DataTransfer.csproj" />
+    <ProjectReference Include="..\Petto.Dominio\Petto.Dominio.csproj" />
+  </ItemGroup>
+
+</Project>

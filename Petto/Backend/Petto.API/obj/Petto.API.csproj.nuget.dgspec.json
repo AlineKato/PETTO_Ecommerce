@@ -1,0 +1,337 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\aline.kato\\Desktop\\Petto\\Petto.API\\Petto.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\aline.kato\\Desktop\\Petto\\Petto.API\\Petto.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\aline.kato\\Desktop\\Petto\\Petto.API\\Petto.API.csproj",
+        "projectName": "Petto.API",
+        "projectPath": "C:\\Users\\aline.kato\\Desktop\\Petto\\Petto.API\\Petto.API.csproj",
+        "packagesPath": "C:\\Users\\aline.kato\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\aline.kato\\Desktop\\Petto\\Petto.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\aline.kato\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\aline.kato\\Desktop\\Petto\\Petto.aplicacao\\Petto.aplicacao.csproj": {
+                "projectPath": "C:\\Users\\aline.kato\\Desktop\\Petto\\Petto.aplicacao\\Petto.aplicacao.csproj"
+              },
+              "C:\\Users\\aline.kato\\Desktop\\Petto\\Petto.DataTransfer\\Petto.DataTransfer.csproj": {
+                "projectPath": "C:\\Users\\aline.kato\\Desktop\\Petto\\Petto.DataTransfer\\Petto.DataTransfer.csproj"
+              },
+              "C:\\Users\\aline.kato\\Desktop\\Petto\\Petto.Dominio\\Petto.Dominio.csproj": {
+                "projectPath": "C:\\Users\\aline.kato\\Desktop\\Petto\\Petto.Dominio\\Petto.Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MySql.data": {
+              "target": "Package",
+              "version": "[8.0.30, )"
+            },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[2.1.13, )"
+            },
+            "NHibernate": {
+              "target": "Package",
+              "version": "[5.3.13, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\aline.kato\\Desktop\\Petto\\Petto.aplicacao\\Petto.aplicacao.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\aline.kato\\Desktop\\Petto\\Petto.aplicacao\\Petto.aplicacao.csproj",
+        "projectName": "Petto.aplicacao",
+        "projectPath": "C:\\Users\\aline.kato\\Desktop\\Petto\\Petto.aplicacao\\Petto.aplicacao.csproj",
+        "packagesPath": "C:\\Users\\aline.kato\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\aline.kato\\Desktop\\Petto\\Petto.aplicacao\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\aline.kato\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\aline.kato\\Desktop\\Petto\\Petto.DataTransfer\\Petto.DataTransfer.csproj": {
+                "projectPath": "C:\\Users\\aline.kato\\Desktop\\Petto\\Petto.DataTransfer\\Petto.DataTransfer.csproj"
+              },
+              "C:\\Users\\aline.kato\\Desktop\\Petto\\Petto.Infra\\Petto.Infra.csproj": {
+                "projectPath": "C:\\Users\\aline.kato\\Desktop\\Petto\\Petto.Infra\\Petto.Infra.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\aline.kato\\Desktop\\Petto\\Petto.DataTransfer\\Petto.DataTransfer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\aline.kato\\Desktop\\Petto\\Petto.DataTransfer\\Petto.DataTransfer.csproj",
+        "projectName": "Petto.DataTransfer",
+        "projectPath": "C:\\Users\\aline.kato\\Desktop\\Petto\\Petto.DataTransfer\\Petto.DataTransfer.csproj",
+        "packagesPath": "C:\\Users\\aline.kato\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\aline.kato\\Desktop\\Petto\\Petto.DataTransfer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\aline.kato\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\aline.kato\\Desktop\\Petto\\Petto.Dominio\\Petto.Dominio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\aline.kato\\Desktop\\Petto\\Petto.Dominio\\Petto.Dominio.csproj",
+        "projectName": "Petto.Dominio",
+        "projectPath": "C:\\Users\\aline.kato\\Desktop\\Petto\\Petto.Dominio\\Petto.Dominio.csproj",
+        "packagesPath": "C:\\Users\\aline.kato\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\aline.kato\\Desktop\\Petto\\Petto.Dominio\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\aline.kato\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\aline.kato\\Desktop\\Petto\\Petto.Infra\\Petto.Infra.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\aline.kato\\Desktop\\Petto\\Petto.Infra\\Petto.Infra.csproj",
+        "projectName": "Petto.Infra",
+        "projectPath": "C:\\Users\\aline.kato\\Desktop\\Petto\\Petto.Infra\\Petto.Infra.csproj",
+        "packagesPath": "C:\\Users\\aline.kato\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\aline.kato\\Desktop\\Petto\\Petto.Infra\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\aline.kato\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\aline.kato\\Desktop\\Petto\\Petto.Dominio\\Petto.Dominio.csproj": {
+                "projectPath": "C:\\Users\\aline.kato\\Desktop\\Petto\\Petto.Dominio\\Petto.Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "NHibernate": {
+              "target": "Package",
+              "version": "[5.3.13, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
